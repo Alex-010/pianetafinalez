@@ -1,0 +1,56 @@
+/* CSS HEX 
+--black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+
+/* CSS HSL
+--black: hsla(0, 0%, 0%, 1);
+--oxford-blue: hsla(221, 51%, 16%, 1);
+--orange-web: hsla(37, 98%, 53%, 1);
+--platinum: hsla(0, 0%, 90%, 1);
+--white: hsla(0, 0%, 100%, 1);
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+ body {
+    margin: 0;
+    font-family: "EB Garamond", "Times" serif;
+ }
+
+div#header {
+    background-color: #000000ff;
+    min-height: 250px;
+    line-height: 250px;
+    /*padding: 30px;*/
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.sistema-solare__title {
+    text-align: center;
+    margin: 0;
+
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.sistema-solare__title--principale {
+    text-shadow: 2px 2px 2px #e5e5e5ff;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fca311ff;
+}
+
+div.sistema-solare {
+    background-color: #fca311ff;
+    padding: 20px;
+    border: 3px solid #000000ff;
+}
+
